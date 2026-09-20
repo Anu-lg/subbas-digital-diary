@@ -20,8 +20,7 @@ const buttonVariants = cva(
           "border border-primary/25 bg-primary text-primary-foreground shadow-lg hover:bg-primary/90",
         quiet:
           "border border-foreground/20 bg-background/10 text-foreground backdrop-blur-md hover:bg-background/20",
-        paper:
-          "border border-border bg-card text-card-foreground shadow-md hover:bg-secondary",
+        paper: "border border-border bg-card text-card-foreground shadow-md hover:bg-secondary",
       },
       size: {
         default: "h-9 px-4 py-2",

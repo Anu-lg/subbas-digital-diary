@@ -766,7 +766,7 @@ Create a clean local asset structure:
 
 /public
 
-   /images
+/images
 
       /memories
 
@@ -774,11 +774,11 @@ Create a clean local asset structure:
 
       /final
 
-   /audio
+/audio
 
-   /video
+/video
 
-   /decorations
+/decorations
 
 Create a simple configuration file where I can add:
 
@@ -798,19 +798,19 @@ Example:
 
 {
 
-  id: 1,
+id: 1,
 
-  image: "/images/memories/memory-01.jpg",
+image: "/images/memories/memory-01.jpg",
 
-  date: "2023",
+date: "2023",
 
-  place: "Bengaluru",
+place: "Bengaluru",
 
-  title: "That Day",
+title: "That Day",
 
-  caption: "One of those memories...",
+caption: "One of those memories...",
 
-  story: "Full story goes here..."
+story: "Full story goes here..."
 
 }
 
@@ -844,41 +844,41 @@ Suggested structure:
 
 components/
 
-  Intro/
+Intro/
 
-  Birthday/
+Birthday/
 
-  BalloonScene/
+BalloonScene/
 
-  CakeScene/
+CakeScene/
 
-  BouquetScene/
+BouquetScene/
 
-  Letter/
+Letter/
 
-  MemoryTimeline/
+MemoryTimeline/
 
-  MemoryCard/
+MemoryCard/
 
-  PhotoWall/
+PhotoWall/
 
-  Universe/
+Universe/
 
-  FinalReveal/
+FinalReveal/
 
-  MusicControl/
+MusicControl/
 
 data/
 
-  memories.ts
+memories.ts
 
-  messages.ts
+messages.ts
 
 assets/
 
-  images/
+images/
 
-  audio/
+audio/
 
 ====================================================
 
